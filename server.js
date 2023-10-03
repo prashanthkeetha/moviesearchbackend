@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const app = express();
 require('dotenv').config();
+const path = require('path')
 const route = require("./route");
 
 app.use(bodyParser.json())
